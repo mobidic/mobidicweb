@@ -23,13 +23,13 @@ body, html {
 
 /* First image (Logo. Full height) */
 .bgimg-1 {
-    background-image: url('../img/georg-wolf-99332.jpg');
+    background-image: url('../img/photo-whale.jpg');
     min-height: 100%;
 }
 
 /* Second image (Portfolio) */
 .bgimg-2 {
-    background-image: url("../img/markus-spiske-221494.jpg");
+    background-image: url("../img/photo-code.jpg");
     min-height: 400px;
 }
 

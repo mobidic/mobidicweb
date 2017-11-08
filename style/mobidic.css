@@ -18,12 +18,17 @@ body, html {
     }
 }
 
+@font-face {
+  font-family: 'cc-font';
+  src: url('../fonts/cc-icons.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
+}
+
 
 /*index*/
 
 /* First image (Logo. Full height) */
 .bgimg-1 {
-    background-image: url('../img/photo-whale.jpg');
+    background-image: url('../img/photo-cachalot.jpg');
     min-height: 100%;
 }
 

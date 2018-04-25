@@ -68,17 +68,55 @@ Oregon State University flickr - By Gabriel Barathieu" class="w3-hover-opacity">
 		<!-- Container (About Section) -->
 		<div class="w3-container w3-row w3-padding-64 w3-center" id="about">
 			<h2 class="w3-center">About MoBiDiC</h2>
-			<div class="w3-container w3-padding-64 w3-large" id="logo">
-				<div class="w3-row-padding" style="margin-top:64px">
-					<div class="w3-col l4 m6">
-						<div class="w3-card" style="height:550px">
-							<h3 class="w3-center">What is it?</h3>
-							<p class="w3-padding-64">MoBiDiC is the French acronym for Montpellier Bioinformatics for Clinical Diagnosis.<br/>It is a small group of bioinformaticians working at the University Hospital in Montpellier, France, and, as suggested by the name, working in Molecular Diagnostics.<br/>Our Development skills include NGS pipelines, databases design and implementation, GUIs development...</p>
+
+			<div class="w3-row-padding my_container">
+				<div class="w3-third w3-padding-16">
+					<div class="w3-card my_column">
+						<header class="w3-teal">
+						  <h3>What is it?</h3>
+						</header>
+						<div class="w3-margin w3-padding-16">
+							<p>MoBiDiC is the French acronym for Montpellier Bioinformatics for Clinical Diagnosis.<br/>It is a small group of bioinformaticians working at the University Hospital in Montpellier, France, and, as suggested by the name, working in Molecular Diagnostics.<br/>Our Development skills include NGS pipelines, databases design and implementation, GUIs development...</p>
 						</div>
 					</div>
-					<div class="w3-col l4 m6 w3-container">
-						<div class="w3-card" style="height:550px">
+				</div>
+
+				<div class="w3-third w3-padding-16">
+					<div class="w3-card my_column">
+						<header class="w3-teal">
+						  <h3>Labs</h3>
+						</header>
+						<div class="w3-padding-16 ">
+							<ul class="w3-ul w3-hoverable">
+								<li class="w3-hover-blue">
+									<span class="w3-button w3-hover-white" style="width:100%" onclick="window.open('https://cftr.iurc.montp.inserm.fr/lgmr');" title="Visit the lab's page">
+										Laboratory of Molecular Genetics <i class="fa fa-external-link"></i> including:
+									</span>
+									<ul class="w3-ul w3-hoverable">
+										<li class="w3-button w3-medium w3-hover-white" style="width:100%" onclick="window.open('https://neuro-2.iurc.montp.inserm.fr/usher');" title="Visit the team's page" >
+											The Deafness and Blindness team <i class="fa fa-external-link"></i>
+										</li>
+										<li class="w3-button w3-medium w3-hover-white"  style="width:100%" onclick="window.open('https://cftr.iurc.montp.inserm.fr/research/DMD/DMD-fr.html');" title="Visit the team's page" >
+											The Neuromuscular team <i class="fa fa-external-link"></i>
+										</li>
+									</ul>
+								</li>
+								<li class="w3-button w3-hover-blue"  style="width:100%" onclick="window.open('http://umai-montpellier.fr/');" title="Visit the lab's page">
+									Autoinflammatory Diseases Unit <i class="fa fa-external-link"></i>
+								</li>
+								<li>Department of Pathology</li>
+								<li>Cytogenetics Unit</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+
+				<div class="w3-third w3-padding-16">
+					<div class="w3-card my_column">
+						<header class="w3-teal">
 							<h3>People</h3>
+						</header>
+						<div class="w3-padding-16 ">
 							<ul class="w3-ul w3-hoverable w3-padding-16">
 								<li class="w3-button w3-hover-blue" onclick="window.open('https://github.com/ardoli');" title="Visit Olivier's GitHub page" style="width:100%">
 									Olivier Ardouin <i class="fa fa-github fa-fw"></i>
@@ -106,38 +144,16 @@ Oregon State University flickr - By Gabriel Barathieu" class="w3-hover-opacity">
 							</ul>
 						</div>
 					</div>
-					<div class="w3-col l4 m6 w3-container">
-						<div class="w3-card" style="height:550px">
-							<h3>Labs</h3>
-							<p class="w3-padding-16">MoBiDiC involves several labs of the Hospital:</p>
-							<ul class="w3-ul w3-hoverable w3-padding-32">
-								<li class="w3-hover-blue">
-									<span class="w3-button w3-hover-white" style="width:100%" onclick="window.open('https://cftr.iurc.montp.inserm.fr/lgmr');" title="Visit the lab's page">
-										Laboratory of Molecular Genetics <i class="fa fa-external-link"></i> including:
-									</span>
-									<ul class="w3-ul w3-hoverable">
-										<li class="w3-button w3-medium w3-hover-white" style="width:100%" onclick="window.open('https://neuro-2.iurc.montp.inserm.fr/usher');" title="Visit the team's page" >
-											The Deafness and Blindness team <i class="fa fa-external-link"></i>
-										</li>
-										<li class="w3-button w3-medium w3-hover-white"  style="width:100%" onclick="window.open('https://cftr.iurc.montp.inserm.fr/research/DMD/DMD-fr.html');" title="Visit the team's page" >
-											The Neuromuscular team <i class="fa fa-external-link"></i>
-										</li>
-									</ul>
-								</li>
-								<li class="w3-button w3-hover-blue"  style="width:100%" onclick="window.open('http://umai-montpellier.fr/');" title="Visit the lab's page">
-									Autoinflammatory Diseases Unit <i class="fa fa-external-link"></i>
-								</li>
-								<li>Department of Pathology</li>
-								<li>Cytogenetics Unit</li>
-							</ul>
-						</div>
-					</div>
 				</div>
 			</div>
 
+
+
+
+
 			<div class="w3-center w3-padding-32">
 				<a href="https://github.com/mobidic" title="Visit MoBiDiC's GitHub page" target="_blank" class="w3-hover-opacity" style="text-decoration: none;">
-					<img src="img/logo-mobidic.svg" alt="MoBiDiC"/>
+					<img src="img/logo-mobidic.svg" alt="MoBiDiC" class="w3-image"/>
 				</a>
 			</div>
 		</div>
@@ -158,119 +174,189 @@ Oregon State University flickr - By Gabriel Barathieu" class="w3-hover-opacity">
 
 		<!-- Container (Software Section) -->
 		<div class="w3-container w3-padding-64 w3-center">
-			<div class="w3-container w3-padding-64 w3-large" id="logo">
-				<div class="w3-row-padding" style="margin-top:64px">
-					<div class="w3-col l4 m6">
-						<div class="w3-card">
-							<a href="https://github.com/beboche/nenufaar" target="_blank" title="Visit Nenufaar GitHub page">
-								<img src="img/logo-nenufaar.png" alt="Nenufaarity" style="height:200px" class="w3-image w3-hover-opacity">
-							</a>
+			<div class="w3-row-padding my_container">
+
+				<!-- Card: Nenufaar -->
+				<div class="w3-third w3-padding-16">
+					<div class="w3-card w3-hover-opacity"  onclick="window.open('https://github.com/beboche/nenufaar');"  title="Visit Nenufaar GitHub page" style="width:100%">
+						<header class="w3-container w3-teal" >
+						 <h3>Nenufaar</h3>
+						</header>
+
+						<div class="w3-container my_column">
+								<img src="img/logo-nenufaar.png" alt="Nenufaar" style="height:200px" class="w3-image">
 							<h3>Nenufaar</h3>
 							<p class="w3-opacity">DNA-NGS pipeline</p>
 							<p>Your full DNA analysis</p>
-							<p><a class="w3-button w3-light-grey w3-block w3-hover-teal" href="https://github.com/beboche/nenufaar" target="_blank" title="Visit Nenufaar GitHub page">Learn More</a></p>
 						</div>
-						<!--<div class="w3-card">
-							<a href="https://neuro-2.iurc.montp.inserm.fr/nenufaarity/" target="_blank" title="Visit Nenufaarity">
-								<img src="img/logo-nenufaar.png" alt="Nenufaarity" style="height:200px" class="w3-image w3-hover-opacity">
-							</a>
-							<h3>Nenufaarity</h3>
-							<p class="w3-opacity">DNA-NGS pipeline</p>
-							<p>Your DNA analysis in a single container</p>
-							<p><a class="w3-button w3-light-grey w3-block w3-hover-teal" href="https://neuro-2.iurc.montp.inserm.fr/nenufaarity/" target="_blank" title="Visit Nenufaarity">Learn More</a></p>
-						</div>-->
+
+						<footer class="w3-container w3-teal">
+						 <h5>Learn more</h5>
+						</footer>
 					</div>
-					<div class="w3-col l4 m6 w3-container">
-						<div class="w3-card">
-							<a href="https://github.com/mobidic/MPA" target="_blank" title="Visit MPA">
-								<img src="img/logo-MPA.png" alt="MPA" style="height:200px" class="w3-image w3-hover-opacity">
-							</a>
+				</div>
+
+				<!-- Card: MPA -->
+				<div class="w3-third w3-padding-16">
+					<div class="w3-card w3-hover-opacity"  onclick="window.open('https://github.com/mobidic/MPA');"  title="Visit MPA website" style="width:100%">
+						<header class="w3-container w3-teal" >
+						 <h3>MPA</h3>
+						</header>
+
+						<div class="w3-container my_column">
+								<img src="img/logo-MPA.png" alt="MPA" style="height:200px" class="w3-image">
 							<h3>MPA</h3>
 							<p class="w3-opacity">Mobidic Prioritization Algorithm</p>
 							<p>Filter variants efficiently</p>
-							<p><a class="w3-button w3-light-grey w3-block w3-hover-teal"  href="https://github.com/mobidic/MPA" target="_blank" title="Visit MPA">Learn More</a></p>
 						</div>
+
+						<footer class="w3-container w3-teal">
+						 <h5>Learn more</h5>
+						</footer>
 					</div>
-					<div class="w3-col l4 m6 w3-container">
-						<div class="w3-card">
-							<a href="https://github.com/mobidic/MobiDL" target="_blank" title="Visit MobiDL">
-								<img src="img/logo-mobidic.svg" alt="MobiDL" style="height:200px" class="w3-image w3-hover-opacity">
-							</a>
+				</div>
+
+				<!-- Card: MobiDL -->
+				<div class="w3-third w3-padding-16">
+					<div class="w3-card w3-hover-opacity"  onclick="window.open('https://github.com/mobidic/MobiDL');"  title="Visit MobiDL's GitHub page" style="width:100%">
+						<header class="w3-container w3-teal" >
+						 <h3>MobiDL</h3>
+						</header>
+
+						<div class="w3-container my_column">
+								<img src="img/logo-mobidic.png" alt="MobiDL" style="height:200px" class="w3-image">
 							<h3>MobiDL</h3>
 							<p class="w3-opacity">Mobidic WDL DNA-NGS workflows</p>
 							<p>Next Generation DNA analysis</p>
-							<p><a class="w3-button w3-light-grey w3-block w3-hover-teal" href="https://github.com/mobidic/MobiDL" target="_blank" title="Visit MobiDL">Learn More</a></p>
 						</div>
+
+						<footer class="w3-container w3-teal">
+						 <h5>Learn more</h5>
+						</footer>
 					</div>
-					<div class="w3-col l4 m6 w3-container">
-						<div class="w3-card">
-							<a href="https://github.com/mobidic/MobiCNV" target="_blank" title="Visit MobiCNV">
-								<img src="img/logo-mobidic.svg" alt="MobiCNV" style="height:200px" class="w3-image w3-hover-opacity">
-							</a>
+				</div>
+
+				<!-- Card: MobiCNV -->
+				<div class="w3-third w3-padding-16">
+					<div class="w3-card w3-hover-opacity"  onclick="window.open('https://github.com/mobidic/MobiCNV');"  title="Visit MobiCNV GitHub's page" style="width:100%">
+						<header class="w3-container w3-teal" >
+						 <h3>MobiCNV</h3>
+						</header>
+
+						<div class="w3-container my_column">
+								<img src="img/logo-mobidic.png" alt="MobiCNV" style="height:200px" class="w3-image">
 							<h3>MobiCNV</h3>
 							<p class="w3-opacity">CNV analysis based on DoC</p>
 							<p>Easy identification of CNVs from illumina data</p>
-							<p><a class="w3-button w3-light-grey w3-block w3-hover-teal" href="https://github.com/mobidic/MobiCNV" target="_blank" title="Visit MobiCNV">Learn More</a></p>
 						</div>
+
+						<footer class="w3-container w3-teal">
+						 <h5>Learn more</h5>
+						</footer>
 					</div>
-					<div class="w3-col l4 m6 w3-container">
-						<div class="w3-card">
-							<a href="https://github.com/mobidic/Captain-ACHAB" target="_blank" title="Visit Captain-ACHAB">
-								<img src="img/achabjust.png" alt="Captain-ACHAB" style="height:200px" class="w3-image w3-hover-opacity">
-							</a>
+				</div>
+
+				<!-- Card: ACHAB -->
+				<div class="w3-third w3-padding-16">
+					<div class="w3-card w3-hover-opacity"  onclick="window.open('https://github.com/mobidic/Captain-ACHAB');"  title="Visit Captain-ACHAB github's page" style="width:100%">
+						<header class="w3-container w3-teal" >
+						 <h3>Captain-ACHAB</h3>
+						</header>
+
+						<div class="w3-container my_column">
+								<img src="img/achabjust.png" alt="Captain-ACHAB" style="height:200px" class="w3-image">
 							<h3>Captain-ACHAB</h3>
 							<p class="w3-opacity">Analysis Converter for Humans</p>
 							<p>Simple interface to analyse WES data</p>
-							<p><a class="w3-button w3-light-grey w3-block w3-hover-teal" href="https://github.com/mobidic/Captain-ACHAB" target="_blank" title="Visit Captain-ACHAB">Learn More</a></p>
 						</div>
+
+						<footer class="w3-container w3-teal">
+						 <h5>Learn more</h5>
+						</footer>
 					</div>
-					<div class="w3-col l4 m6 w3-container">
-						<div class="w3-card">
-							<a href="https://neuro-2.iurc.montp.inserm.fr/USMA/" target="_blank" title="Visit USMA">
-								<img src="img/logo-USMA.png" alt="USMA" style="height:200px" class="w3-image w3-hover-opacity">
-							</a>
+				</div>
+
+				<!-- Card: USMA -->
+				<div class="w3-third w3-padding-16">
+					<div class="w3-card w3-hover-opacity"  onclick="window.open('https://neuro-2.iurc.montp.inserm.fr/USMA/');"  title="Visit USMA website" style="width:100%">
+						<header class="w3-container w3-teal" >
+						 <h3>USMA</h3>
+						</header>
+
+						<div class="w3-container my_column">
+								<img src="img/logo-USMA.png" alt="USMA" style="height:200px" class="w3-image">
 							<h3>USMA</h3>
 							<p class="w3-opacity">Usher Syndrome Missense Analysis</p>
 							<p>Deeply interpret your Usher missense</p>
-							<p><a class="w3-button w3-light-grey w3-block w3-hover-teal" href="https://neuro-2.iurc.montp.inserm.fr/USMA/" target="_blank" title="Visit USMA">Learn More</a></p>
 						</div>
-					</div>				
-					<div class="w3-col l4 m6">
-						<div class="w3-card">
-							<a href="https://cftr.iurc.montp.inserm.fr/cftr/" target="_blank" title="Visit CFTR-France">
-								<img src="img/logo-mobidic.svg" alt="Nenufaarity" style="height:200px" class="w3-image w3-hover-opacity">
-							</a>
+
+						<footer class="w3-container w3-teal">
+						 <h5>Learn more</h5>
+						</footer>
+					</div>
+				</div>
+
+				<!-- Card: CFTR-France -->
+				<div class="w3-third w3-padding-16">
+					<div class="w3-card w3-hover-opacity"  onclick="window.open('https://cftr.iurc.montp.inserm.fr/cftr/');"  title="Visit CFTR-France website" style="width:100%">
+						<header class="w3-container w3-teal" >
+						 <h3>CFTR-France</h3>
+						</header>
+
+						<div class="w3-container my_column">
+								<img src="img/logo-mobidic.png" alt="cftr-France" style="height:200px" class="w3-image">
 							<h3>CFTR-France</h3>
 							<p class="w3-opacity">French national LSDB</p>
 							<p>All CF and CF-related CFTR variants</p>
-							<p><a class="w3-button w3-light-grey w3-block w3-hover-teal" href="https://cftr.iurc.montp.inserm.fr/cftr/" target="_blank" title="Visit CFTR-France">Learn More</a></p>
 						</div>
+
+						<footer class="w3-container w3-teal">
+						 <h5>Learn more</h5>
+						</footer>
 					</div>
-					<div class="w3-col l4 m6 w3-container">
-						<div class="w3-card">
-							<a href="https://grenada.lumc.nl/LOVD2/Usher_montpellier/" target="_blank" title="Visit LOVD-USHbases">
-								<img src="img/logo-USHBASES.jpg" alt="USHBASES" style="height:200px" class="w3-image w3-hover-opacity">
-							</a>
+				</div>
+
+				<!-- Card: LOVD-USHbases -->
+				<div class="w3-third w3-padding-16">
+					<div class="w3-card w3-hover-opacity"  onclick="window.open('https://grenada.lumc.nl/LOVD2/Usher_montpellier/');"  title="Visit LOVD-USHbases" style="width:100%">
+						<header class="w3-container w3-teal" >
+						 <h3>LOVD-USHbases</h3>
+						</header>
+
+						<div class="w3-container my_column">
+								<img src="img/logo-USHBASES.jpg" alt="LOVD-USHbases" style="height:200px" class="w3-image">
 							<h3>LOVD-USHbases</h3>
 							<p class="w3-opacity">LSDB for Usher syndrome</p>
 							<p>19 genes Mobidic's curated database</p>
-							<p><a class="w3-button w3-light-grey w3-block w3-hover-teal"  href="https://grenada.lumc.nl/LOVD2/Usher_montpellier/" target="_blank" title="Visit LOVD-USHbases">Learn More</a></p>
 						</div>
+
+						<footer class="w3-container w3-teal">
+						 <h5>Learn more</h5>
+						</footer>
 					</div>
-					<div class="w3-col l4 m6 w3-container">
-						<div class="w3-card">
-							<a href="http://fmf.igh.cnrs.fr/ISSAID/infevers/" target="_blank" title="Visit Infevers">
-								<img src="img/logo-infevers.png" alt="Infevers" style="height:200px" class="w3-image w3-hover-opacity">
-							</a>
+				</div>
+
+				<!-- Card: Infevers -->
+				<div class="w3-third w3-padding-16">
+					<div class="w3-card w3-hover-opacity"  onclick="window.open('http://fmf.igh.cnrs.fr/ISSAID/infevers/');"  title="Visit Infevers website" style="width:100%">
+						<header class="w3-container w3-teal" >
+						 <h3>Infevers</h3>
+						</header>
+
+						<div class="w3-container my_column">
+								<img src="img/logo-infevers.png" alt="Infevers" style="height:200px" class="w3-image">
 							<h3>Infevers</h3>
 							<p class="w3-opacity">Familial Mediterranean Fever website</p>
 							<p>LSDB for 30 genes</p>
-							<p><a class="w3-button w3-light-grey w3-block w3-hover-teal" href="http://fmf.igh.cnrs.fr/ISSAID/infevers/" target="_blank" title="Visit Infevers">Learn More</a></p>
 						</div>
+
+						<footer class="w3-container w3-teal">
+						 <h5>Learn more</h5>
+						</footer>
 					</div>
 				</div>
+
 			</div>
-		</div>
 
 		<footer class="w3-bottom w3-hide-small">
 			<div class="w3-white w3-opacity-min w3-row">
